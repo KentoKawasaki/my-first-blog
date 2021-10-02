@@ -1,10 +1,6 @@
 from django.contrib import admin
-from .models import Post
+from .models import Post, Comment
 
 
 admin.site.register(Post)
-
-# superuser
-# user name : 'kento'
-# mail : 'kento@example.com'
-# password : 'Teipass03'
+admin.site.register(Comment)
